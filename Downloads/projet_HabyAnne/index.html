@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seneweb - Actualités du Sénégal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="barre-haut">
+    <span>Jeudi 14 Mai 2026 | Dakar, Sénégal</span>
+    <span><a href="#">Connexion</a> | <a href="#">Inscription</a></span>
+  </div>
+
+  <header class="entete">
+    <div class="logo">sene<span>web</span></div>
+    <div class="recherche-haut">
+      <input type="text" placeholder="Rechercher..." />
+      <button onclick="window.location='recherche.html'">Rechercher</button>
+    </div>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html" class="actif">Accueil</a>
+    <a href="categorie.html">Politique</a>
+    <a href="categorie-economie.html">Économie</a>
+    <a href="categorie-sport.html">Sport</a>
+    <a href="categorie-culture.html">Culture</a>
+    <a href="categorie-societe.html">Société</a>
+    <a href="categorie-sante.html">Santé</a>
+    <a href="forum.html">Forum</a>
+  </nav>
+
+  <div class="flash">
+    <strong>⚡ Flash :</strong>
+    Le président annonce un nouveau plan économique pour relancer la croissance du Sénégal.
+  </div>
+
+  <div class="contenu">
+    <main class="gauche">
+
+      <div class="une">
+        <img src="img/une.jpg" alt="À la une" />
+        <div class="une-texte">
+          <span class="etiquette">Politique</span>
+          <h1><a href="article.html">Le gouvernement dévoile son plan de développement pour les 5 prochaines années</a></h1>
+          <p>Le Premier ministre a présenté un programme ambitieux devant l'Assemblée nationale ce matin.</p>
+          <span class="meta">Par Mamadou Diallo · 14 mai 2026 · 08h30</span>
+        </div>
+      </div>
+
+      <div class="titre-section">Dernières Actualités</div>
+      <div class="grille">
+        <div class="carte">
+          <img src="img/economie.jpg" alt="Économie" />
+          <div class="carte-texte">
+            <span class="etiquette bleu">Économie</span>
+            <h3><a href="article-economie.html">La BCEAO maintient son taux directeur à 3,5% malgré les pressions</a></h3>
+            <span class="meta">12 mai 2026</span>
+          </div>
+        </div>
+        <div class="carte">
+          <img src="img/sport.jpg" alt="Sport" />
+          <div class="carte-texte">
+            <span class="etiquette vert">Sport</span>
+            <h3><a href="article-sport.html">CAN 2026 : Les Lions du Sénégal en grande forme avant le tournoi</a></h3>
+            <span class="meta">13 mai 2026</span>
+          </div>
+        </div>
+        <div class="carte">
+          <img src="img/societe.jpg" alt="Société" />
+          <div class="carte-texte">
+            <span class="etiquette orange">Société</span>
+            <h3><a href="article-societe.html">Éducation : le taux de scolarisation atteint un record de 92%</a></h3>
+            <span class="meta">11 mai 2026</span>
+          </div>
+        </div>
+        <div class="carte">
+          <img src="img/culture.jpg" alt="Culture" />
+          <div class="carte-texte">
+            <span class="etiquette violet">Culture</span>
+            <h3><a href="article-culture.html">Festival de Dakar 2026 : 200 artistes attendus de toute l'Afrique</a></h3>
+            <span class="meta">10 mai 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="titre-section top">À Ne Pas Manquer</div>
+      <ul class="liste-articles">
+        <li><a href="article.html">Nouveau pont de Dakar : ouverture prévue en juin prochain</a><span class="meta">13 mai</span></li>
+        <li><a href="article.html">Le Sénégal renforce sa production de médicaments locaux</a><span class="meta">12 mai</span></li>
+        <li><a href="article.html">Dakar Tech Hub : la Silicon Valley africaine</a><span class="meta">11 mai</span></li>
+        <li><a href="article.html">Programme d'irrigation lancé dans le Sine-Saloum</a><span class="meta">10 mai</span></li>
+        <li><a href="article.html">Diaspora : la communauté sénégalaise de France se mobilise</a><span class="meta">09 mai</span></li>
+      </ul>
+
+    </main>
+
+    <aside class="droite">
+      <div class="titre-section">🔥 Tendances</div>
+      <ol class="tendances">
+        <li><a href="article.html">Le pétrole sénégalais booste les revenus de l'État</a></li>
+        <li><a href="article.html">Opposition : les partis se préparent aux élections</a></li>
+        <li><a href="article-sport.html">Pape Matar Sarr élu meilleur joueur africain</a></li>
+        <li><a href="article.html">Grève des transporteurs : Dakar paralysée</a></li>
+        <li><a href="article.html">Prix du riz en forte hausse sur les marchés</a></li>
+      </ol>
+
+      <div class="titre-section top">🌤 Météo - Dakar</div>
+      <div class="meteo">
+        <span class="temperature">34°C</span>
+        <div class="details-meteo">
+          <span>💧 Humidité : 68%</span>
+          <span>💨 Vent : 18 km/h</span>
+          <span>🌅 Lever : 06h32</span>
+          <span>🌇 Coucher : 19h45</span>
+        </div>
+      </div>
+
+      <div class="titre-section top">💬 Forum</div>
+      <ul class="liste-forum">
+        <li><a href="forum-sujet.html">Que pensez-vous du nouveau budget ?</a><span>324 rép.</span></li>
+        <li><a href="forum-sujet.html">Lions : quel effectif pour la CAN ?</a><span>218 rép.</span></li>
+        <li><a href="forum-sujet.html">Vie chère à Dakar : vos témoignages</a><span>190 rép.</span></li>
+      </ul>
+
+      <div class="titre-section top">📱 Suivez-nous</div>
+      <div class="reseaux">
+        <a href="#" class="reseau facebook">Facebook</a>
+        <a href="#" class="reseau twitter">Twitter / X</a>
+        <a href="#" class="reseau youtube">YouTube</a>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="pied">
+    <div class="logo pied-logo">sene<span>web</span></div>
+    <div class="liens-pied">
+      <a href="index.html">Accueil</a>
+      <a href="#">Contact</a>
+      <a href="#">Publicité</a>
+      <a href="#">Mentions légales</a>
+    </div>
+    <p>© 2026 Seneweb.com — Tous droits réservés | Dakar, Sénégal</p>
+  </footer>
+
+</body>
+</html>

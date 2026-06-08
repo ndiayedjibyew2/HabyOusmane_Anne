@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seneweb - Forum</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="barre-haut">
+    <span>Jeudi 14 Mai 2026 | Dakar</span>
+    <span><a href="#">Connexion</a> | <a href="#">Inscription</a></span>
+  </div>
+  <header class="entete">
+    <div class="logo">sene<span>web</span></div>
+    <div class="recherche-haut">
+      <input type="text" placeholder="Rechercher..."/>
+      <button onclick="window.location='recherche.html'">Rechercher</button>
+    </div>
+  </header>
+  <nav class="navigation">
+    <a href="index.html">Accueil</a>
+    <a href="categorie.html">Politique</a>
+    <a href="categorie-economie.html">Économie</a>
+    <a href="categorie-sport.html">Sport</a>
+    <a href="categorie-culture.html">Culture</a>
+    <a href="categorie-societe.html">Société</a>
+    <a href="categorie-sante.html">Santé</a>
+    <a href="forum.html" class="actif">Forum</a>
+  </nav>
+  <div class="contenu">
+    <main class="gauche">
+      <div class="titre-section">💬 Forum Seneweb — Sujets du moment</div>
+      <div class="nouveau-sujet">
+        <input type="text" placeholder="Titre de votre sujet..."/>
+        <button>+ Nouveau sujet</button>
+      </div>
+      <div class="filtres-forum">
+        <a href="#" class="filtre actif">Tous</a>
+        <a href="#" class="filtre">Politique</a>
+        <a href="#" class="filtre">Sport</a>
+        <a href="#" class="filtre">Société</a>
+        <a href="#" class="filtre">Économie</a>
+        <a href="#" class="filtre">Culture</a>
+      </div>
+      <ul class="liste-sujets">
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette bleu">Politique</span>
+            <h3><a href="forum-sujet.html">Que pensez-vous du nouveau budget de l'État ?</a></h3>
+            <span class="meta">Par <strong>Ibou_Dakar</strong> · 14 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>324 rép.</span><span>1 248 vues</span></div>
+        </li>
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette vert">Sport</span>
+            <h3><a href="forum-sujet.html">Lions du Sénégal : quel effectif idéal pour la CAN 2026 ?</a></h3>
+            <span class="meta">Par <strong>Fara_Sport</strong> · 13 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>218 rép.</span><span>876 vues</span></div>
+        </li>
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette orange">Société</span>
+            <h3><a href="forum-sujet.html">Vie chère à Dakar : partagez vos témoignages</a></h3>
+            <span class="meta">Par <strong>Mariama_S</strong> · 12 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>190 rép.</span><span>742 vues</span></div>
+        </li>
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette bleu">Économie</span>
+            <h3><a href="forum-sujet.html">Pétrole sénégalais : bonne ou mauvaise nouvelle pour les citoyens ?</a></h3>
+            <span class="meta">Par <strong>Baye_Eco</strong> · 11 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>156 rép.</span><span>620 vues</span></div>
+        </li>
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette violet">Culture</span>
+            <h3><a href="forum-sujet.html">Festival de Dakar 2026 : vos attentes et suggestions</a></h3>
+            <span class="meta">Par <strong>Culturiste_SN</strong> · 10 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>98 rép.</span><span>410 vues</span></div>
+        </li>
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette orange">Société</span>
+            <h3><a href="forum-sujet.html">Meilleures universités au Sénégal en 2026 : votre avis ?</a></h3>
+            <span class="meta">Par <strong>Etudiant_UCAD</strong> · 09 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>145 rép.</span><span>589 vues</span></div>
+        </li>
+        <li>
+          <div class="sujet-info">
+            <span class="etiquette gris">Diaspora</span>
+            <h3><a href="forum-sujet.html">Retour au Sénégal après 10 ans en France : conseils ?</a></h3>
+            <span class="meta">Par <strong>Djiby_Paris</strong> · 08 mai 2026</span>
+          </div>
+          <div class="sujet-stats"><span>112 rép.</span><span>504 vues</span></div>
+        </li>
+      </ul>
+      <div class="pagination">
+        <a href="#" class="page-actif">1</a>
+        <a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">&raquo;</a>
+      </div>
+    </main>
+    <aside class="droite">
+      <div class="titre-section">📊 Stats du forum</div>
+      <div class="stats-forum">
+        <div><strong>12 450</strong><span>Sujets</span></div>
+        <div><strong>98 320</strong><span>Réponses</span></div>
+        <div><strong>5 210</strong><span>Membres</span></div>
+      </div>
+      <div class="titre-section top">🔥 Sujets chauds</div>
+      <ol class="tendances">
+        <li><a href="forum-sujet.html">Budget 2026 : pour ou contre ?</a></li>
+        <li><a href="forum-sujet.html">Meilleur buteur du championnat local</a></li>
+        <li><a href="forum-sujet.html">Hausse du prix du carburant</a></li>
+        <li><a href="forum-sujet.html">UCAD vs UGB : quelle université choisir ?</a></li>
+        <li><a href="forum-sujet.html">Retour au Sénégal depuis la diaspora</a></li>
+      </ol>
+      <div class="titre-section top">📱 Suivez-nous</div>
+      <div class="reseaux">
+        <a href="#" class="reseau facebook">Facebook</a>
+        <a href="#" class="reseau twitter">Twitter / X</a>
+        <a href="#" class="reseau youtube">YouTube</a>
+      </div>
+    </aside>
+  </div>
+  <footer class="pied">
+    <div class="logo pied-logo">sene<span>web</span></div>
+    <div class="liens-pied">
+      <a href="index.html">Accueil</a><a href="#">Contact</a>
+      <a href="#">Publicité</a><a href="#">Mentions légales</a>
+    </div>
+    <p>© 2026 Seneweb.com — Tous droits réservés | Dakar, Sénégal</p>
+  </footer>
+</body>
+</html>
